@@ -325,7 +325,7 @@ class Movie extends Component {
 								<Typography component='p' align='left' color='textPrimary' gutterBottom>
 									Rating: {moviesData.rating}
 								</Typography>
-								<Button variant='outlined' color='primary' className={classes.aicon}>
+								<Button variant='contained' color='primary' className={classes.aicon}>
 									Save for Later
 									<Save className={classes.bicon} />
 								</Button>

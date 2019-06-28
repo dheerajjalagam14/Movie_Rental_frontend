@@ -175,9 +175,7 @@ class Home extends Component {
 	};
 
 	async componentDidMount() {
-		console.log("sdfdf");
-		await axios.get(`${GET_MOVIES_URL}`).then(res => {
-			console.log("res");
+		await axios.get(`${GET_MOVIES_URL}`).then(res => {	
 			this.setState({ allmovies: [...res.data.data] });
 		});
 	}
